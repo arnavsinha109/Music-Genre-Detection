@@ -16,9 +16,11 @@ Once both audio features and lyric feature, we can merge then using the Final Da
 For our project, we have two main datasets. 125 vec and 250 vec datasets. Due to the size of these datasets, we could not upload in repo. In another readme file in this folder, a link for google drive is present where one can download the datasets. For each dataset, we have provided a json, pickle and csv file, we recommend using the pickle file.
 
 #### 03 – Primary models – 250 vec
-*This folder contains all the notebooks that does the actual training and testing of models. It is arranged in multiple folders based on the algorithms used. For every algorithm , we have two notebooks, one for audio + theme while the other for audio only datasets. Running these notebooks is a lot more feasible. Please download the datasets from google drive and update the location of the dataset in the notebook to match the dataset location. We recommend using the pickle file version of the dataset as the notebooks are built to accept that. Only the Hybrid folder contains single notebook that runs on 250 vec dataset only.
+* This folder contains all the notebooks that does the actual training and testing of models. It is arranged in multiple folders based on the algorithms used. For every algorithm , we have two notebooks, one for audio + theme while the other for audio only datasets. Running these notebooks is a lot more feasible. Please download the datasets from google drive and update the location of the dataset in the notebook to match the dataset location. We recommend using the pickle file version of the dataset as the notebooks are built to accept that. Only the Hybrid folder contains single notebook that runs on 250 vec dataset only.
 
 * The best models for each algorithm has been provided next to the notebook in an aptly named folder. Please utilize that for model verification on the data linked in the "02-Datasets" folder. The datafile to be used is "musicFeatures.pkl"
+
+* The best models for KNN are not provided in the repository due to their huge size (>1 GB)  
 
 #### 04 – Secondary models – 125 vec
 * This folder contains the notebook for the best models run on 125 vec dataset. Pleases follow the same steps as primary models to get the notebook running.
