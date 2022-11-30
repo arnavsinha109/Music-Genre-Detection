@@ -27,6 +27,9 @@ For our project, we have two main datasets. 125 vec and 250 vec datasets. Due to
 
 * The best models for each algorithm has been provided next to the notebook in an aptly named folder. Please utilize that for model verification on the data linked in the "02-Datasets" folder. The datafile to be used is "musicFeatures_125.pkl"
 
+#### 05 - Submission Docs
+This folder contains the PowerPoint presentation and report we submitted for the CSE 676 final project 
+
 If any issue occurs while running the code or downloading the required datasets. Please do not hesitate to contact us at :
 Rahul Rammohan Mandical – rrammoha@bufflao.edu
 Arnav Sinha - arnavsin@buffalo.edu
